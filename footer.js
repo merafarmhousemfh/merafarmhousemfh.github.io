@@ -20,7 +20,7 @@ document.write("                           <div class=\"col-md-6 col-sm-6 col-xs
 document.write("                               <ul class=\"footer_menu\">");
 document.write("                                   <li><a href=\"index.html\">Home</a></li>                                    ");
 document.write("                                   <li><a href=\"terms.html\">Terms</a></li>");
-document.write("                                   <li><a href=\"privacy_policy.html\">Privacy</a></li>                                                                        ");
+document.write("                                   <li><a href=\"privacy.html\">Privacy</a></li>                                                                        ");
 document.write("                                   <li><a href=\"contact.html\">Contact Us</a></li>");
 document.write("                               </ul>");
 document.write("                           </div>                            ");
@@ -39,6 +39,11 @@ document.write("                           <li>");
 document.write("                               <span class=\"address_left\">E-mail:</span>");
 document.write("                               <span class=\"address_right\"><a href=\"mailto:info@merafarmhouse.com\">info@merafarmhouse.com</a> </span>");
 document.write("                           </li>");
+document.write("                           <li>");
+document.write("                               <span class=\"address_left\">Phone:</span>");
+document.write("                               <span class=\"address_right\">+91-987-596-8172</span>");
+document.write("                           </li>");
+
 document.write("                       </ul>");
 document.write("                       <!--<ul class=\"footer_social_menu\">");
 document.write("                           <li><a href=\"#\"><i class=\"social_facebook\"></i></a></li>");
