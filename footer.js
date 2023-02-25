@@ -33,7 +33,7 @@ document.write("                       <h3 class=\"footer_title\">Contact Info</
 document.write("                       <ul class=\"contact_address\">");
 document.write("                           <li>");
 document.write("                               <span class=\"address_left\">Address:</span>");
-document.write("                               <span class=\"address_right\">Plot 379, Industrial Area Phase II Chandigarh - 160002, India</span>");
+document.write("                               <span class=\"address_right\">Plot 379,<br> Industrial Area Phase II,<br> Chandigarh-160002,<br> India</span>");
 document.write("                           </li>                           ");
 document.write("                           <li>");
 document.write("                               <span class=\"address_left\">E-mail:</span>");
