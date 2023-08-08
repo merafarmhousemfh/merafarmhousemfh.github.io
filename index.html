@@ -33,21 +33,42 @@
         <!--====== Style css ======-->
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/">
+            <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WR50N3JSMW"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
+        gtag('config', 'G-WR50N3JSMW');
+        </script>
 <style>
 
     .author-section .sidebar-widget-area .sidebar-widget{
-        width: 380px;
+        width: 100%;
     }
-
+    
     .author-section img{
-        height: 400px;
+        height: 100%;
     }
     .hello {
     color:#0B3D2C;
     cursor: pointer;
     text-decoration: underline;
-}
+    }
+    .features-wrapper-two{
+        max-width: 100%;
+    }
+    @media screen and (min-width: 768px) {    
+        .author-section .sidebar-widget-area .sidebar-widget{
+                width: 500px;
+        }
+        
+        .author-section img{
+            height: 600px;
+        }
+    }
+
 </style>
     </head>
     <body>
@@ -408,15 +429,6 @@
                     </div>
                 </div>
             </div>
-            <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WR50N3JSMW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-WR50N3JSMW');
-</script>
         </header><!--====== End Area ======-->
         <!--====== Start Banner Section ======-->
         <section class="banner-section">
@@ -784,7 +796,7 @@
         <!--====== Start Project Section ======-->
  <!--------------------------------------------------------------------------------------------------->       
          <!--=== Author Widget ===-->
-        <div class="d-flex col-md-12 author-section justify-content-around mt-5">
+        <div class="d-flex row col-md-12 author-section justify-content-around mt-5 mx-0">
             <div class="sidebar-widget-area">
                 <div class="sidebar-widget widget-post-author mb-40 wow fadeInUp">
                     <div class="author-img">
