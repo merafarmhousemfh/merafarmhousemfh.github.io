@@ -235,7 +235,11 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 13px;
 }
-
+li{
+  list-style-type: disc;
+  margin-left: 4%;
+  font-size: 13px;
+}
 /*====== Extra CSS ======*/
 .container-fluid {
   padding-left: 70px;

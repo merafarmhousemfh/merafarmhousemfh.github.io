@@ -33,6 +33,30 @@
         <!--====== Style css ======-->
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
+    <style>
+          .single-info-item.style-three{
+            background-color: #0B3D2C;
+         } 
+         .single-info-item.style-two{
+            background-color: #0B3D2C;
+         }
+         .single-info-item.style-one{
+            background-color: #0B3D2C;
+         }
+        .single-info-item.style-three .info h4.title{
+            color: white;
+        }
+        .single-info-item.style-one .info span{
+            color:#F1D2A9;;
+        }
+        
+        /* .main-btn.primary-btn{
+            background-color:#0B3D2C;
+        } */
+        .single-info-item.style-three .info span{
+            color: white;
+        }
+    </style>
     <body>
         <!--====== Start Preloader ======-->
         <div class="preloader">
@@ -71,11 +95,11 @@
                                             <h6>Follow Us</h6>
                                             <ul class="social-link">
                                                 <!-- TODO : Add the Social Media Accounts-->
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="https://www.facebook.com/profile.php?id=100070131415597"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="https://twitter.com/MeraFarmhouse"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="https://youtube.com/@MeraFarmhouse"><i class="fab fa-youtube"></i></a></li>
+                                                <li><a href="https://in.pinterest.com/merafarmhousedotcom/"><i class="fab fa-pinterest-p"></i></a></li>
+                                                <li><a href="https://www.instagram.com/merafarmhouse/"><i class="fab fa-instagram"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -389,6 +413,15 @@
                     </div>
                 </div>
             </div>
+             <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WR50N3JSMW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WR50N3JSMW');
+</script>
         </header><!--====== End Header ======-->
         <!--====== Start Page-title-area section ======-->
         <section class="page-title-area text-white bg_cover" style="background-image: url(assets/images/gallery/5.jpg);">
@@ -470,8 +503,8 @@
                             <!--=== Map Box ===-->
                             <div class="map-box wow fadeInLeft mb-50">
                                 <!-- TODO : Embed Google Maps of MFH Office Here-->
-                                <iframe src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
-                            </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.745850014569!2d76.78220507511145!3d30.697426087338922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedd928f66d27%3A0x4394e2d2af9e7574!2sMera%20Farmhouse!5e0!3m2!1sen!2sin!4v1690978111321!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                          
+                              </div>
                         </div>
                         <div class="col-lg-6">
                             <!--====== Contact Form Wrapper ======-->
@@ -535,9 +568,23 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="col-xl-4 col-md-6">
                         <!--====== Single Info Item ======-->
-                        <div class="single-info-item style-three mb-40 wow fadeInUp">
+                        <div class="single-info-item style-two mb-40 wow fadeInDown">
+                            <div class="shape shape-one"><span><img src="assets/images/shape/info-shape-1.png" alt="shape"></span></div>
+                            <div class="info">
+                                <span>List Products</span>
+                                <h4 class="title">Want to show your products to farmers ?
+                                    </h4>
+                                <a href="contact.html" class="main-btn golden-btn">List Products</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-md-6">
+                        <!--====== Single Info Item ======-->
+                        <!-- <div class="single-info-item style-three mb-40 wow fadeInUp">
                             <div class="shape shape-one"><span><img src="assets/images/shape/info-shape-2.png" alt="shape"></span></div>
                             <div class="info">
                                 <span>List Products</span>
@@ -545,7 +592,7 @@
                                 <a href="contact.html" class="main-btn primary-btn">List Products</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section><!--====== End Info Section ======-->
@@ -589,8 +636,8 @@
         </section><!--====== End Partners Section ======-->
         <!--====== Start Footer ======-->
         <footer class="footer-area text-white main-bg">
-            <div class="shape shape-one animate-float-y"><span><img src="assets/images/shape/tree.png" alt="Tree Image"></span></div>
-            <div class="shape shape-two animate-float-y"><span><img src="assets/images/shape/tree2.png" alt="Tree Image"></span></div>
+            <div class="shape shape-one animate-float-y"><span><img src="assets/images/wheat.png" alt="Tree Image"height="150px" weight="150px"></span></div>
+            <div class="shape shape-two animate-float-y"><span><img src="assets/images/wheat2.png" alt="Tree Image"height="150px" weight="150px"></span></div>
             <div class="container">
                 <!--====== Footer Widget ======-->
                 <div class="footer-widget-area pt-80 pb-40">
