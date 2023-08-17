@@ -1,0 +1,26 @@
+.team-img {
+    color:#0B3D2C;
+    cursor: pointer;
+text-decoration: underline;
+}
+.features-wrapper-two{
+    max-width: 100%;
+}
+.author-section .sidebar-widget-area .sidebar-widget{
+    width: 380px;
+}
+
+.author-section img{
+    height: 500px;
+}
+
+@media screen and (max-width: 768px) {    
+    .author-section .sidebar-widget-area .sidebar-widget{
+        width: 100%;
+    }
+    
+    .author-section img{
+        height: 100%;
+    }
+
+}
