@@ -321,6 +321,16 @@
                                             <li><a href="services_bi.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">पंजाबी</font></font></a></li>
                                         </ul>
                                     </li>
+                                    <li class="menu-item has-children">
+                                        <a href="#" id="loginLink">लॉग इन करें</a>
+                                    </li>
+                            
+                                <div class="blur" id="blur"></div>
+                                <div class="popup" id="popup">
+                                   <p class="para">कृपया हमारी वेबसाइट पर लॉग इन करें।</p>
+                                    <button class="btn btn-primary mt-3" id="closeButton">बंद करना</button>
+                                </div>
+                                    </li>  
                                 </ul>
                             </nav>
                             <!--====== Menu Button ======-->
@@ -644,5 +654,21 @@
         <script src="assets/vendor/wow.min.js"></script>
         <!--====== Main js ======-->
         <script src="assets/js/theme.js"></script>
+        <script>
+            const loginLink = document.getElementById('loginLink');
+            const blur = document.getElementById('blur');
+            const popup = document.getElementById('popup');
+            const closeButton = document.getElementById('closeButton');
+    
+            loginLink.addEventListener('click', () => {
+                blur.style.display = 'block';
+                popup.style.display = 'block';
+            });
+    
+            closeButton.addEventListener('click', () => {
+                blur.style.display = 'none';
+                popup.style.display = 'none';
+            });
+        </script>
 </body>
 </html>

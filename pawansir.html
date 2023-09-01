@@ -323,6 +323,15 @@
                                             <li><a href="pawansir-bi.html">Punjabi</a></li>
                                         </ul>
                                     </li>
+                                    <li class="menu-item has-children">
+                                        <a href="#" id="loginLink">Login</a>
+                                    </li>
+                            
+                                <div class="blur" id="blur"></div>
+                                <div class="popup" id="popup">
+                                   <p class="para">Please login to our website.</p>
+                                    <button class="btn btn-primary mt-3" id="closeButton">Close</button>
+                                </div>
                                 </ul> 
                             </nav>
                             <!--====== Menu Button ======-->
@@ -556,5 +565,21 @@
         <script src="assets/vendor/wow.min.js"></script>
         <!--====== Main js ======-->
         <script src="assets/js/theme.js"></script>
+        <script>
+            const loginLink = document.getElementById('loginLink');
+            const blur = document.getElementById('blur');
+            const popup = document.getElementById('popup');
+            const closeButton = document.getElementById('closeButton');
+    
+            loginLink.addEventListener('click', () => {
+                blur.style.display = 'block';
+                popup.style.display = 'block';
+            });
+    
+            closeButton.addEventListener('click', () => {
+                blur.style.display = 'none';
+                popup.style.display = 'none';
+            });
+        </script>
     </body>
 </html>
