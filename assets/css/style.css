@@ -7604,32 +7604,4 @@ ul.slick-dots li.slick-active {
     font-weight: bold;
 }
 <!======= header changes ==============>
-.header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #f8f8f8;
-}
 
-.custom-information-wrapper {
-    display: flex;
-    gap: 20px;
-}
-
-.custom-single-information-item {
-    text-align: center;
-}
-
-.custom-icon {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.custom-info {
-    line-height: 1.2;
-}
-
-strong {
-    font-weight: bold;
-}
