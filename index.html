@@ -33,10 +33,10 @@
         <!--====== Style css ======-->
         <link rel="stylesheet" href="assets/css/style.css">
 	<style>
-.header-container-2 {
+   .header-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     padding: 20px;
     background-color: #f8f8f8;
 }
@@ -44,10 +44,11 @@
 .custom-information-wrapper {
     display: flex;
     gap: 20px;
+    text-align: center;
 }
 
 .custom-single-information-item {
-    text-align: center;
+    width: 100%;
 }
 
 .custom-icon {
@@ -62,22 +63,41 @@
 strong {
     font-weight: bold;
 }
-   /* Responsive Styles */
- @media only screen and (max-width: 768px) {
-        .header-container-2 {
-            flex-direction: column;
-            text-align: center;
-        }
 
-        .custom-information-wrapper {
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .custom-single-information-item {
-            margin-bottom: 10px;
-        }
+/* Responsive Styles */
+@media only screen and (min-width: 768px) {
+    .header-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
+
+    .custom-information-wrapper {
+        flex-direction: row;
+        justify-content: flex-end;
+        text-align: left;
+    }
+
+    .custom-single-information-item {
+        width: auto;
+    }
+
+    .custom-brand-logo {
+        order: -1; /* Move the logo to the left */
+    }
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .custom-single-information-item {
+        display: none; /* Hide all information items */
+    }
+
+    .custom-brand-logo {
+        /* Add styles for the logo or adjust its size */
+    }
+}
+
 	</style>
     </head>
     <body>
